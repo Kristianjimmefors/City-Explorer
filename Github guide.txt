@@ -1,0 +1,7 @@
+När du ska hämta filerna så gör såhär:
+git pull origin master
+
+När du har ändrat någon fil så gör såhär:
+git add *
+git commit -m "kommentaren"
+git push origin master
