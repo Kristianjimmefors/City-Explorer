@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>Malmö</title>
+    <script src="material-components-web/material-components-web.js"></script>
+    <link href="material-components-web/material-components-web.css"
+    rel="stylesheet">
+    <link href="material-components-web/material-components-web-extra.css"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <header id="mdc-toolbar" class="mdc-toolbar mdc-toolbar--fixed mdc-toolbar--waterfall">
+      <div class="mdc-toolbar__row">
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+          <a href="#" id="menu" class="material-icons mdc-toolbar__icon--menu">menu</a>
+          <a href="index.html"><img id="navlogga" src="media/CityExplorerlogo.png" alt="logga.png"></a>
+        </section>
+      </div>
+    </header>
+    <aside id="drawer" class="mdc-temporary-drawer mdc-typography">
+      <nav class="mdc-temporary-drawer__drawer">
+        <nav id="icon-with-text-demo" class="mdc-temporary-drawer__content mdc-list">
+          <a class="mdc-list-item drawerlink" href="stockholm.html">
+            <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">location_city</i>Stockholm
+          </a>
+          <a class="mdc-list-item drawerlink" href="goteborg.html">
+            <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">location_city</i>Göteborg
+          </a>
+          <a class="mdc-list-item mdc-temporary-drawer--selected" href="#">
+            <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">location_city</i>Malmö
+          </a>
+          <a class="mdc-list-item drawerlink" href="uppsala.html">
+            <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">location_city</i>Uppsala
+          </a>
+          <a class="mdc-list-item drawerlink" href="vasteros.html">
+            <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">location_city</i>Västerås
+          </a>
+          <a class="mdc-list-item drawerlink" href="orebro.html">
+            <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">location_city</i>Örebro
+          </a>
+        </nav>
+      </nav>
+    </aside>
+    <main id="toolbar-fixed" class="mdc-toolbar-fixed-adjust">
+      <p>hej</p>
+    </main>
+    <script>
+      window.mdc.autoInit();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

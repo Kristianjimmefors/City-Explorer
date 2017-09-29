@@ -13,3 +13,8 @@ $(document).ready(function(){
     $(".knappupp, .knappner").toggle();
   });
 });
+var toolbar = mdc.toolbar.MDCToolbar.attachTo(document.getElementById('mdc-toolbar'));
+toolbar.fixedAdjustElement = document.getElementById('toolbar-fixed');
+
+var drawer = new mdc.drawer.MDCTemporaryDrawer(document.getElementById('drawer'));
+document.getElementById('menu').addEventListener('click', () => drawer.open = true);

@@ -4,16 +4,9 @@ html, body{
   height: 100%;
 }
 body{
-
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/eb/BGC.jpg);
 }
-header{
-  background-image: url(media/CityExplorerlogo.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 120px;
-  width: 200px;
-}
-p{
+#descriptiontext{
   color: white;
   text-align: center;
   position: relative;
@@ -64,8 +57,6 @@ p{
   position: relative;
   margin: auto;
   top: 30px;
-
-
 }
 .cities{
   width: 90%;
@@ -73,7 +64,6 @@ p{
   display: none;
   margin-top: 30px;
 }
-
 .citiesclass {
   background-color: rgba(190, 204, 209, 0.5);
   width: inherit;
@@ -85,7 +75,6 @@ p{
 .mdc-grid-tile {
     --mdc-grid-list-tile-width: 90%;
 }
-
 @media screen and (max-width: 450px) {
   .mdc-grid-list__tiles, .mdc-grid-list, .mdc-grid-tile {
     width: 100%;
@@ -98,4 +87,24 @@ p{
 @media screen and (min-width: 1200px) {
   .cities .mdc-grid-tile { --mdc-grid-list-tile-width: 32%; margin: 0.5%;}
   .cities{width: 100%;}
+  #menu{display: none;}
+}
+#navlogga{
+  margin-top: 4px;
+  height: 50px;
+}
+.mdc-temporary-drawer__drawer{
+  width: 50%;
+}
+#menu{
+  position: absolute;
+  right: 5px;
+}
+.test{
+  background-image: url(media/göteborg.jpg);
+  height: 400px;
+  width: 250px;
+}
+.drawerlink{
+  color: #696969
 }

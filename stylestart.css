@@ -1,0 +1,123 @@
+html, body{
+  margin: 0;
+  width: auto;
+  height: 100%;
+  /*background-image: url("media/gabriel-santiago-19756.jpg");*/
+  /*background-size: cover;*/
+
+}
+video{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+body{
+
+}
+
+p{
+  color: black  ;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  font-family: arial;
+  font-size: 1rem;
+}
+.background{
+  width: 100%;
+  height: 100%;
+  /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/eb/BGC.jpg);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#welcome{
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+}
+.description{
+  text-align: left;
+  margin: 0px 5px 0px 5px;
+  padding: 0px 5px;
+  border-radius: 4px;
+  font-family: arial;
+}
+#knappner{
+  position: absolute;
+  bottom: 25%;
+  left: 45%;
+  color: #00c853;
+  font-size: 6rem;
+  background: none;
+  width: 75px;
+  height: 75px;
+
+}
+#knappupp{
+  position: absolute;
+  bottom: 25%;
+  left: 45%;
+  color: #00c853;
+  font-size: 6rem;
+  background: none;
+  display: none;
+  width: 75px;
+  height: 75px;
+
+}
+#logo{
+  background-image: url(media/CityExplorerlogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 425px;
+  position: relative;
+  margin: auto;
+  top: 30px;
+
+
+}
+.cities{
+  width: 90%;
+  margin: auto;
+  display: none;
+  margin-top: 30px;
+}
+
+/*.citiesclass {
+  background-color: rgba(190, 204, 209, 0.5);
+  width: inherit;
+  height: 40px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;*/
+}
+.mdc-grid-tile {
+    --mdc-grid-list-tile-width: 70%;
+}
+.drawerlink{
+  color: #696969
+}
+.mdc-temporary-drawer__drawer{
+  width: 50%;
+}
+#navlogga{
+  margin-top: 4px;
+  height: 50px;
+}
+@media screen and (max-width: 450px) {
+  body{
+    max-width: 90%;
+  }
+  .mdc-grid-list__tiles, .mdc-grid-list, .mdc-grid-tile {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 1200px) {
+  .cities .mdc-grid-tile { --mdc-grid-list-tile-width: 35%; margin-left: 9%; margin-bottom: 3%;}
+  .cities{width: 100%; margin-left: auto;}
+}
+@media screen and (min-width: 1200px) {
+  .cities .mdc-grid-tile { --mdc-grid-list-tile-width: 25%; margin-left: 6%; margin-bottom: 3%;}
+  .cities{width: 100%; position: absolute;}
+}
