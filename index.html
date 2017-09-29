@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>City Explorer</title>
+    <script src="material-components-web/material-components-web.js"></script>
+    <link href="material-components-web/material-components-web.css"
+    rel="stylesheet">
+    <link href="material-components-web/material-components-web-extra.css"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <!-- <header>
+
+    </header> -->
+    <div class="background">
+      <div id="logo">
+
+      </div>
+      <div class="description">
+        <p>City Explorer tillåter dig har skoj. Klicka på knappen under för att välja stad.</p>
+      </div>
+      <div class="citiesclass">
+      <a href="#citiesId">
+      <button id="knappner" class="mdc-fab material-icons mdc-fab--mini knappner" aria-label="keyboard arrow down">
+        <span class="mdc-fab__icon">
+          keyboard_arrow_down
+        </span>
+      </button>
+      <button id="knappupp" class="mdc-fab material-icons mdc-fab--mini knappupp" aria-label="keyboard arrow up">
+        <span class="mdc-fab__icon">
+          keyboard_arrow_up
+        </span>
+      </button></a>
+    </div>
+    </div>
+  <div id="citiesId" class="cities">
+    <div class="mdc-grid-list mdc-grid-list--tile-aspect-16x9">
+  <ul class="mdc-grid-list__tiles">
+    <li class="mdc-grid-tile">
+      <div class="mdc-grid-tile__primary">
+      <a href="stockholm.html"><img class="mdc-grid-tile__primary-content" src="media/stockholm.jpg" /></a>
+      </div>
+    </li>
+    <li class="mdc-grid-tile">
+      <div class="mdc-grid-tile__primary">
+        <a href="goteborg.html"><img class="mdc-grid-tile__primary-content" src="media/göteborg.jpg" /></a>
+      </div>
+    </li>
+    <li class="mdc-grid-tile">
+      <div class="mdc-grid-tile__primary">
+        <a href="malmo.html"><img class="mdc-grid-tile__primary-content" src="media/malmo.jpg" /></a>
+      </div>
+    </li>
+    <li class="mdc-grid-tile">
+      <div class="mdc-grid-tile__primary">
+        <a href="uppsala.html"><img class="mdc-grid-tile__primary-content" src="media/uppsala.jpg"/></a>
+      </div>
+    </li>
+    <li class="mdc-grid-tile">
+      <div class="mdc-grid-tile__primary">
+        <a href="vasteras.html"><img class="mdc-grid-tile__primary-content" src="media/västerås.jpg"/></a>
+      </div>
+    </li>
+    <li class="mdc-grid-tile">
+      <div class="mdc-grid-tile__primary">
+        <a href="orebro.html"><img class="mdc-grid-tile__primary-content" src="media/örebro.jpg"/></a>
+      </div>
+    </li>
+  </ul>
+</div>
+</div>
+    <script>
+      window.mdc.autoInit();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
